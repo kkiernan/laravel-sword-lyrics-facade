@@ -1,0 +1,21 @@
+{
+    "name": "kkiernan/sword",
+    "description": "Get lyrics by The Sword",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kelly Kiernan",
+            "email": "kelly@kellykiernan.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "config": {
+        "bin-dir": ""
+    },
+    "autoload": {
+        "psr-4": {
+            "Sword\\": "src/Sword"
+        }
+    }
+}
