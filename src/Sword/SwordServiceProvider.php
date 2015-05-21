@@ -23,7 +23,7 @@ class SwordServiceProvider extends ServiceProvider {
 	{
 		$this->app->bind('Sword', function()
 		{
-			return new \Macklesnake\Sword;
+			return new \Sword\Sword;
 		});
 	}
 
