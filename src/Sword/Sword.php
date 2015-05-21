@@ -1,4 +1,4 @@
-<?php namespace Macklesnake;
+<?php namespace Sword;
 
 class Sword {
 	

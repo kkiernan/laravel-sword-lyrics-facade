@@ -1,4 +1,4 @@
-<?php namespace Macklesnake\Facades;
+<?php namespace Sword;
 
 use Illuminate\Support\Facades\Facade;
 
