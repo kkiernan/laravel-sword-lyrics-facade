@@ -10,7 +10,7 @@ Grab it through Composer.
 
 ```js
 "require": {
-	"kkiernan/sword": "^1.1"
+	"kkiernan/sword": "^1.2"
 }
 ```
 
