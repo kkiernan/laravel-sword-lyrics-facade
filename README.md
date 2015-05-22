@@ -39,7 +39,7 @@ Add the Sword alias to your aliases in config/app.php.
 
 ## Usage
 
-Right now there is just one method. Call it and you'll get a random Sword lyric. For example, you could use it in your template.
+Right now there is just one method. Call it and you'll get a random Sword lyric. For example, you could use it in a blade template.
 
 ```html
 <p>{{ Sword::lyric() }}</p>
