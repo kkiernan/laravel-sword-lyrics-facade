@@ -9,7 +9,9 @@
         }
     ],
     "require": {},
-    "require-dev": {},
+    "require-dev": {
+        "phpspec/phpspec": "^2.2"
+    },
     "config": {
         "bin-dir": ""
     },

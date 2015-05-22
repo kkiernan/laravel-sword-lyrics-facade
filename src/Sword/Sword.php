@@ -14,7 +14,14 @@ class Sword {
 		"Twilight written in the runes of crone // Freya weeps upon her golden throne",
 		"And what if all you've seen are lies // When the veil lifts from your eyes",
 		"All that has been shall be again",
-		"When the world is dark and still without a sound // That which was hidden is shown"
+		"When the world is dark and still without a sound // That which was hidden is shown",
+		"Tell me, oh mountain // What secrets do you hold // Buried deep beneath the earth // In hidden vaults of stone?",
+		"Oh, he wonders // How much there is to know // And how long will it take him // To learn it as he goes",
+		"Set adrift in the multiverse // By the whims of fate",
+		"His skin became a prison // Where suffers his soul",
+		"Immortality through artificial transformation // To rule a world that soon will die",
+		"Walk not down that road // I can not tell you where it goes // Ask me no more questions // Some things you weren't meant to know",
+		"She is the maiden, the mother, the crone",
 	];
 
 	/**
