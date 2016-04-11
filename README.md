@@ -2,6 +2,18 @@
 
 Get a random lyric by The Sword. This is a very simple facade I used to learn how to set up a facade in Laravel.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Instructions](#instructions)
+    - [Install](#install)
+    - [Add the Service Provider](#add-the-service-provider)
+    - [Add the Alias](#add-the-alias)
+    - [Use](#use)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## Instructions
 
 ### Install
