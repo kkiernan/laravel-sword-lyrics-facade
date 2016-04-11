@@ -1,6 +1,6 @@
 {
     "name": "kkiernan/sword",
-    "description": "Get lyrics by The Sword",
+    "description": "Gets random lyrics by The Sword",
     "license": "MIT",
     "authors": [
         {
@@ -9,9 +9,6 @@
         }
     ],
     "require": {},
-    "require-dev": {
-        "phpspec/phpspec": "^2.2"
-    },
     "config": {
         "bin-dir": ""
     },

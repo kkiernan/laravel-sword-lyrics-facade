@@ -1,45 +1,48 @@
-# Laravel Facade for Sword Lyrics
+# Sword Lyrics
 
-A simple facade for getting random lyrics by The Sword.
+Get a random lyric by The Sword. This is a very simple facade I used to learn how to set up a facade in Laravel.
 
-## Installation
+## Instructions
 
-### Step 1
+### Install
 
 Grab it through Composer.
 
 ```js
-"require": {
-	"kkiernan/sword": "^1.2"
-}
+composer require kkiernan/sword
 ```
 
+### Add the Service Provider
 
-### Step 2
-
-Add the SwordServiceProvider to the providers array in your config/app.php file.
+Add the service provider to your config/app.php file in the providers array.
 
 ```php
 'providers' => [
+
 	//...
-	'Sword\SwordServiceProvider'
+
+	Sword\SwordServiceProvider::class
+
 ]
 ```
 
-### Step 3
+### Add the Alias
 
 Add the Sword alias to your aliases in config/app.php.
 
 ```php
 'aliases' => [
+
 	//...
-	'Sword' => 'Sword\SwordFacade',
+
+	'Sword' => Sword\SwordFacade::class
+
 ]
 ```
 
-## Usage
+### Use
 
-Right now there is just one method. Call it and you'll get a random Sword lyric. For example, you could use it in a blade template.
+Call the lyric method to get a random lyric. For example, you could use it in a blade template.
 
 ```html
 <p>{{ Sword::lyric() }}</p>
